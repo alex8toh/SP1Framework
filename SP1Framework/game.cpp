@@ -233,7 +233,7 @@ void moveCharacter()
     // providing a beep sound whenver we shift the character
     if (g_skKeyEvent[K_UP].keyReleased && g_sChar.m_cLocation.Y > 0)
     {
-        //Beep(1440, 30);
+        Beep(1440, 30);
         g_sChar.m_cLocation.Y--;       
     }
     if (g_skKeyEvent[K_LEFT].keyReleased && g_sChar.m_cLocation.X > 0)
